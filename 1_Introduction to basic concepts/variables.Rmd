@@ -1,0 +1,44 @@
+---
+title: "Familiarize yourself with declaring and using variables"
+author: "NguyenHo"
+date: "2025-01-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+x<-"hell0"
+print(x)
+```
+```{r}
+first_name<-"shakib"
+print(first_name)
+```
+
+```{r}
+m.y<-"second"
+print(m.y)
+```
+
+```{r}
+x<-25
+print(x)
+```
+
+```{r}
+201->z
+print(z)
+```
+
+```{r}
+y<-x==z
+print(y)
+```
+
+```{r}
+cat(x," ",z,"\n",y)
+```

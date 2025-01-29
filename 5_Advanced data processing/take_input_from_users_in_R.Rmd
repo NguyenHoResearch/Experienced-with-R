@@ -1,0 +1,54 @@
+---
+title: "Take input from users in R"
+author: "NguyenHo"
+date: "2025-01-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+name<-readline(prompt = "Enter your name: ")
+```
+
+
+```{r}
+age<-readline(prompt = "Enter your age: ")
+```
+
+
+```{r}
+print(paste("The name of programming language is", name, "It's age is",age))
+```
+
+
+```{r}
+paste("bangla","english","math",sep="-")
+
+```
+
+
+```{r}
+paste("bangla","english","math",sep="_")
+```
+
+
+```{r}
+paste("bangla","english","math",sep=" ")
+```
+
+
+```{r}
+paste("bangla","english","math")
+```
+
+```{r}
+paste("bangla","english","math",sep=",")
+```
+
+
+```{r}
+paste0("bangla","english","physics")
+```

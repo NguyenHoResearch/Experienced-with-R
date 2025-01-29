@@ -1,0 +1,109 @@
+---
+title: "Explore data types in R"
+author: "NguyenHo"
+date: "2025-01-27"
+output: html_document
+---
+
+# R Data Types
+
+* numeric: This type of data is used to represent real numbers (including decimal numbers).
+
+* logical: The logical data type represents the correct value (true) or false (false). This type of data is often used in comparisons and conditions.
+
+* complex: Used to store complex numbers, somewhat real and virtual. Ex: 2 + 3i
+
+* integer: Used to represent integers. You can create an integer by adding a quail L to a number.Ex: 5L
+
+* character: Used to store characters (text). The string is placed in a double click (") or a single blink (').
+
+* raw: The raw data type is used to store binary data. This data is rarely used in normal practice and is often used in advanced tasks such as low -level data processing.
+
+
+```{r}
+numeric<-c(12,2.50,-255,-24)
+print(numeric)
+```
+```{r}
+class(numeric)
+```
+
+
+```{r}
+my_integer<-54L
+print(my_integer)
+```
+
+
+```{r}
+class(my_integer)
+
+```
+
+
+```
+complex<-TRUE,FALSE
+print(complex)
+
+#ouput: Error: unexpected ',' in "complex<-TRUE,"
+```
+
+
+```{r}
+class(complex)
+```
+
+
+```{r}
+character<-c("hi","a")
+print(character)
+
+```
+
+
+```{r}
+class(character)
+```
+
+
+```{r}
+typeof(character)
+```
+
+
+```{r}
+int<-15
+print(typeof(int))
+```
+
+
+```{r}
+class(int)
+```
+
+
+```{r}
+typeof(int)
+```
+
+
+```{r}
+x=as.integer(int)
+print(x)
+```
+
+
+```{r}
+class(x)
+```
+
+```{r}
+logi<-TRUE
+class(logi)
+```
+
+
+```{r}
+chracter<-"jdjdjdvbkjvb"
+class(character)
+```

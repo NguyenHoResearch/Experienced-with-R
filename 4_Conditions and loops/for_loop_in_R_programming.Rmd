@@ -1,0 +1,46 @@
+---
+title: "For loop in R programming"
+author: "NguyenHo"
+date: "2025-01-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+for (x in 20 : 50){
+  print(x)
+}
+```
+
+
+```{r}
+for (y in 10 : 30)
+{
+  print(y)
+}
+```
+
+
+```{r}
+for (y in 10 : 30)
+{
+  print(paste("My Number Is :",y))
+}
+```
+
+
+```{r}
+n<-c("book","pen","book_self","chair","table")
+```
+
+
+```{r}
+for (h in n)
+{
+  print(h)
+}
+```
+

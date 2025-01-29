@@ -1,0 +1,37 @@
+---
+title: "While loop in R programming"
+author: "NguyenHo"
+date: "2025-01-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+v<-c("i","love","prgramming","and","it","is","always","i","want","to","do")
+```
+
+
+```{r}
+x<-2
+```
+
+
+```{r}
+while(x<10)
+{
+  print(v)
+  x<-x+1
+}
+```
+
+
+```{r}
+while(x<=10)
+{
+  print(v)
+  x<-x+1
+}
+```

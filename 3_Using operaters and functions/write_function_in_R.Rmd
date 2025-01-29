@@ -1,0 +1,58 @@
+---
+title: "Write functions in R"
+author: "NguyenHo"
+date: "2025-01-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+my_func<-function()
+{
+  for (i in 10:20)
+  {
+    print(i**2)
+  }
+}
+```
+
+
+```{r}
+my_func()
+```
+
+
+```{r}
+func<-function(x,y,z)
+{
+  result<-x+y+z
+  print(result)
+}
+```
+
+
+```{r}
+func(2,4,5)
+```
+
+
+```{r}
+new_func<-function(x=10,y=3)
+{
+  result<-x*y
+  print(result)
+}
+```
+
+
+```{r}
+new_func()
+```
+
+
+```{r}
+new_func(9,9)
+```

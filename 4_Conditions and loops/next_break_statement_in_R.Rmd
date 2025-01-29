@@ -1,0 +1,36 @@
+---
+title: "Next & Break statement in R"
+author: "NguyenHo"
+date: "2025-01-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+x<-1 : 10
+```
+
+
+```{r}
+for (value in x){
+  if (value==9){
+    next
+  }
+print(value)
+}
+
+```
+
+
+```{r}
+a<-2
+repeat{
+  print("hello")
+  if(a>=5)
+    break
+  a<-a+1
+}
+```

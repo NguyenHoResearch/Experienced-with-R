@@ -1,0 +1,72 @@
+---
+title: "If-Else statement in R"
+author: "NguyenHo"
+date: "2025-01-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+x<-25L
+if (is.integer(x))
+{
+  print("integer")
+}else
+  
+{
+  print("not integer")
+}
+```
+
+
+```{r}
+y<-c("bangla","english","math","physics")
+```
+
+
+```{r}
+
+if("english" %in%y)
+{
+  print("english is found")
+}else
+{
+  print("not found")
+}
+```
+
+
+```{r}
+marks<-70
+
+```
+
+
+```{r}
+if(marks<=80)
+{
+  print("A")
+}else
+{
+  print("A-")
+}
+```
+
+
+```{r}
+if(marks>=80)
+{
+  print("A")
+  
+}else if(marks>=60)
+{
+  print("A-")
+  
+}else
+{
+  print("B")
+}
+```
